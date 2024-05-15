@@ -1,0 +1,19 @@
+clouds:
+  openstack:
+    
+    auth:
+      
+      auth_url: https://identity.fra.cloud.inovex.io
+      
+      application_credential_id: "dein_application_credential_id"
+      application_credential_secret: "dein_application_credential_secret"
+    
+      
+        
+    region_name: "fra"
+        
+      
+    interface: "public"
+    identity_api_version: 3
+    auth_type: "v3applicationcredential"
+    
