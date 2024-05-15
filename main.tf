@@ -37,6 +37,10 @@ resource "openstack_compute_instance_v2" "mustername" {
       - name: "mustername"
         ssh_authorized_keys:
           - file:///path/to/your/public/key.pub
+    chpasswd:
+      list: |
+        root: bitte_dein_passwort
+      expire: False
   EOF
 }
 
